@@ -1,0 +1,270 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Quicksand', 'sans-serif';
+}
+
+body {
+    background-color: #ffffff;
+}
+#bg-login {
+    display: flex; 
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.box-login {
+    width: 300px;
+    min-height: 200px;
+    border: 1px solid#ccc;
+    background-color: #fff;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.box-login h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+.input-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+.btn {
+    padding: 8px 15px;
+    background-color: #C70039;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+  /*header*/
+  header {
+    height: 65px;
+    width: 100%;
+    background-color: #060606;
+    position :fixed;
+    top: 0;
+    z-index: 10;
+  }
+ .header-left {
+    float: left;
+  }
+
+  .header-left p{
+    margin-top: -60px;
+    color: #ccc;
+    font-size: 2rem;
+    margin-left: -85px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+ .logo {
+    height: 55px;
+    width: 55px;
+    margin: 10px 10px 10px -160px;
+    margin-top: 5px;
+  }
+   .header-left form {
+    background-color: #fffffff8;
+    width: 500px;
+    height: 35px;
+    margin-top: -70px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  ::placeholder {
+    color: #000000;
+    opacity: 0.7; 
+  }
+  .header-left input {
+    all: unset;
+    font: 16px system-ui;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    padding: 6px 10px;
+  }
+  .header-left button {
+    all: unset;
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+  }
+  
+  .header-left svg {
+    color: #fff;
+    fill: currentColor;
+    width: 24px;
+    height: 24px;
+    padding: 10px;
+  }
+  .header-right {
+    float: right;
+    margin-right: -150px;
+  }
+  
+  .header-right a {
+    line-height: 65px;
+    padding: 0 10px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+    text-decoration: none;
+  }
+  
+  .header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  
+  .container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+    position: relative;
+  }
+
+.section {
+    padding: 25px 0;
+}
+.box {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 15px;
+    box-sizing: border-box;
+    margin: 10px 0;
+    border-radius: 15px;
+    box-shadow: 0 0 1px #282828;
+}
+.box::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+footer {
+    padding: 15px 0;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.table tr {
+    height: 30px;
+}
+.table tr td {
+    padding: 5px 10px;
+}
+
+.search {
+  padding: 15px 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+.search input[type=text] {
+  width: 60%;
+  padding: 10px;
+}
+.search input[type=submit] {
+  padding: 12px 15px;
+  background-color: #C70039;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+.col-5 {
+  width: 20%;
+  height: 100px;
+  text-align: center;
+  float: left;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.col-4:hover {
+  box-shadow: 0 0 3px #282828;
+}
+.col-4 {
+  width: 25%;
+  height: 300px;
+  border: 1px solid #CCC;
+  float: left;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+.col-4 img {
+  width: 70%;
+  height: 70%;
+  margin-left: 35px;
+}
+.col-4 .nama {
+  color: #666;
+  margin-bottom: -1px;
+}
+.col-4 .harga {
+  font-weight: bold;
+  color: #C70039;
+  float: right;
+}
+.footer {
+  padding: 25px 0;
+  background-color: #000000;
+  color: #fff;
+  text-align: center;
+}
+.footer p {
+  margin-bottom: 10px;
+}
+.footer small {
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.col-2 {
+  width: 50%;
+  min-height: 200px;
+  padding: 10px;
+  box-sizing: border-box;
+  float: left;
+}
+.col-2 img {
+  padding: 5px;
+  box-sizing: border-box;
+}
+.col-2 h3 {
+  margin-bottom: 10px;
+}
+.col-2 h4 {
+  color: #C70039;
+}
+.col-2 p {
+  margin: 15px 0;
+  text-align: justify;
+  line-height: 25px;
+  font-size: 14px;
+}
+.logowa {
+  margin-bottom: -20px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+  .col-5 {
+    width: 50%;
+    margin-bottom: 10px;
+  }
+  .col-4 {
+    width: 50%;
+    height: 300px;
+  }
+  .col-2 {
+    width: 100%;
+  }
+  
+}
